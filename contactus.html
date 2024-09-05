@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo">
+           <center> <h2>Central Library</h2></center>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">MY Books</a></li>
+            <li><a href="#">All Books</a></li>
+            <li><a href="contactus.html">contact us</a></li>
+            <li style="position: relative;"><a href="#"> <i class="fa-solid fa-bell"></i>
+                <sup name="nutificationcout" id="notificationcout"">0</sup>
+            </a></li>
+            <li><a href="loginpage.html"><i class="fa-solid fa-user"></a></i></li>
+            
+            <!-- <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </li> -->
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+    </header>
+    <main>
+        <section class="heading">
+            
+               
+    <div class="contact-container">
+        <h1 class="header" >Contact Us</h1>
+        <!-- <p class="text2">If you have any questions, feel free to reach out to us by filling out the form below.</p> -->
+        
+        <form class="contact-form" action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input class="textstore" type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input class="textstore" type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input class="textstore" type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea class="textstore" id="message" name="message" rows="5" required></textarea>
+
+            <button class="btn8" type="submit">Send Message</button>
+        </form>
+    </div>
+    
+
+                  
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Central Library is dedicated to providing a wide range of books and resources to our community.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Also Contact Us</h4>
+                <p>Email: contact@centrallibrary.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a style="margin-right: 2px;" href="#"><i class="fab fa-facebook"></i></a>
+                <a style="margin: 0px 2px;" href="#"><i class="fab fa-twitter"></i></a>
+                <a style="margin-left: 2px;" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Central Library. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

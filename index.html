@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo">
+            <h2>Central Library</h2>
+        </div>
+        <div class="search-box">
+            <form action="">
+                <input type="text" name="searchbox" id="srch" placeholder="Search books">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">MY Books</a></li>
+            <li><a href="#">All Books</a></li>
+            <li><a href="contactus.html">contact us</a></li>
+            <li><a href="loginpage.html"><i class="fa-solid fa-user"></a></i></li>
+            <li style="position: relative;"><a href="#"> <i class="fa-solid fa-bell"></i>
+                <sup name="nutificationcout" id="notificationcout"">0</sup>
+            </a></li>
+            
+            <!-- <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </li> -->
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+    </header>
+    <main>
+        <section class="books">
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book2.jpeg')">
+                <a href="bookdetails.html?img=images/book2.jpeg">
+                <img src="images/book2.jpeg" alt="Book 1">
+                <h3>Book 2</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book3.jpeg')">
+                <a href="bookdetails.html?img=images/book3.jpeg">
+                <img src="images/book3.jpeg" alt="Book 3">
+                <h3>Book 3</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book4.jpeg')">
+                <a href="bookdetails.html?img=images/book4.jpeg">
+                <img src="images/book4.jpeg" alt="Book 4">
+                <h3>Book 4</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book5.jpeg')">
+                <a href="bookdetails.html?img=images/book5.jpeg">
+                <img src="images/book5.jpeg" alt="Book 5">
+                <h3>Book 5</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book6.jpeg')">
+                <a href="bookdetails.html?img=images/book6.jpeg">
+                <img src="images/book6.jpeg" alt="Book 6">
+                <h3>Book 6</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book7.jpeg')">
+                <a href="bookdetails.html?img=images/book7.jpeg">
+                <img src="images/book7.jpeg" alt="Book 7">
+                <h3>Book 7</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book8.jpeg')">
+                <a href="bookdetails.html?img=images/book8.jpeg">
+                <img src="images/book8.jpeg" alt="Book 8">
+                <h3>Book 8</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book9.jpeg')">
+                <a href="bookdetails.html?img=images/book9.jpeg">
+                <img src="images/book9.jpeg" alt="Book 9">
+                <h3>Book 9</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+            <div class="book" onclick="checkLogin('images/book1.jpeg')">
+                <a href="bookdetails.html?img=images/book1.jpeg">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <h3>Book 1</h3>
+                <button>ISSUE NOW</button>
+            </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Central Library is dedicated to providing a wide range of books and resources to our community.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: contact@centrallibrary.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a style="margin-right: 2px;" href="#"><i class="fab fa-facebook"></i></a>
+                <a style="margin: 0px 2px;" href="#"><i class="fab fa-twitter"></i></a>
+                <a style="margin-left: 2px;" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Central Library. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
